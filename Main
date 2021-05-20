@@ -1,0 +1,30 @@
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		
+		//JOptionPane.showMessageDialog(null, "Call Tech Support Now" ,"kidfrombrooklyn", JOptionPane.PLAIN_MESSAGE);
+		//JOptionPane.showMessageDialog(null, "Call Tech Support Now" ,"kidfrombrooklyn", JOptionPane.INFORMATION_MESSAGE);
+		//JOptionPane.showMessageDialog(null, "Call Tech Support Now" ,"kidfrombrooklyn", JOptionPane.WARNING_MESSAGE);
+		//JOptionPane.showMessageDialog(null, "Call Tech Support Now" ,"kidfrombrooklyn", JOptionPane.QUESTION_MESSAGE);
+		//JOptionPane.showMessageDialog(null, "Call Tech Support Now (69)420 800 0815" ,"Not A Scam", JOptionPane.ERROR_MESSAGE);
+		
+		//System.out.println(JOptionPane.showConfirmDialog(null, "Can You Sneak?","BE Part of the SneakingSquad TODAY!",JOptionPane.YES_NO_CANCEL_OPTION));
+		String[] responses = {"OHAYO POCO","Well Yes but actually no","Keep it a Secret"};
+		ImageIcon image = new ImageIcon("SneakingTom.jpg");
+		JOptionPane.showOptionDialog(
+				null,
+				"Can You Sneak?",
+				"Rare SneakingTom Application",
+				JOptionPane.YES_NO_CANCEL_OPTION,
+				JOptionPane.INFORMATION_MESSAGE,
+				image,
+				responses,
+				0);
+	}
+
+}
